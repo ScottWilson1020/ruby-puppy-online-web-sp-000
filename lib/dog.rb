@@ -26,4 +26,6 @@ end
     @@all << self
   end
   
+  def name 
+    
 end 
