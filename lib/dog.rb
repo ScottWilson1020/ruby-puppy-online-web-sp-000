@@ -12,11 +12,11 @@ class Dog
     return @@all
   end 
   
-  def self.print_all
+def self.print_all
     @@all.each do |dog|
-      puts Dog.name 
+      puts dog.name
     end
-  end
+end
   
   def self.clear_all 
     @@all = []
